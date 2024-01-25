@@ -1,0 +1,7 @@
+{
+    "env": {
+      "MONGO_USER": "vbns",
+      "MONGO_PASSWORD": "vb123",
+      "MONGO_DB": "Todo"
+    }
+  }
