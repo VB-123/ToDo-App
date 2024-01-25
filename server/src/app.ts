@@ -21,7 +21,7 @@ const corsOptions = {
   
 app.use(cors(corsOptions));  
 app.use(express.static(path.join(__dirname, 'my-app')))
-app.use("/api",todoRoutes)
+app.use(todoRoutes)
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'my-app/public', 'index.html'));
   });
