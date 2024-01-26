@@ -44,7 +44,6 @@ The application will now be running at http://localhost:3000.
 - Express
 - Mongoose
 - CORS
-- dotenv
 
 ## Dev Dependencies:
 
