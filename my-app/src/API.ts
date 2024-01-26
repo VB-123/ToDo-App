@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios'
 
-const baseUrl: string = 'https://todo-backend-5779.onrender.com'
+const baseUrl: string = 'http://localhost:5500'
 
 export const getTodos = async (): Promise<AxiosResponse<ApiDataType>> => {
   try {
