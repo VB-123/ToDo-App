@@ -14,7 +14,7 @@ const PORT: string | number = process.env.PORT || 5500
 
 app.use(express.json());
 const corsOptions = {
-    origin: 'https://to-do-app-r8uj.vercel.app', 
+    origin: 'http://localhost:3000', 
     credentials: true,
   };
   
