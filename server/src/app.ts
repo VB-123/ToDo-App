@@ -7,7 +7,6 @@ import dotenv from 'dotenv'
 import path from 'path';
 
 dotenv.config();
-console.log(process.env.MONGODB_URI);
 
 const app: Express = express()
 
