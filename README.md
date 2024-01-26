@@ -13,7 +13,7 @@ TaskMaster is a full-featured task management application built with the MERN st
 
 ## Installation Guide
 - Before installing, ensure that you have Node.js or yarn installed on your machine.
-- Ensure to have a MongoDB account as well. Save it in an .env file and plug it in the MONGODB_URI variable in the backend(server/app.ts).
+- Ensure to have a MongoDB account as well. Save the connection string for the database in an .env file and plug it in the MONGODB_URI variable in the backend(server/app.ts).
 
 - Clone the repository:
   `git clone https://github.com/VB-123/ToDo-App.git`
