@@ -10,7 +10,6 @@ const routes_1 = __importDefault(require("./routes"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const path_1 = __importDefault(require("path"));
 dotenv_1.default.config();
-console.log(process.env.MONGODB_URI);
 const app = (0, express_1.default)();
 const PORT = process.env.PORT || 5500;
 app.use(express_1.default.json());
